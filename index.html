@@ -1,0 +1,39 @@
+ <style type="text/css">
+ $blue: #a3d5d3;
+$black:#000;
+
+body {
+  background-color: $blue;
+}
+.person{
+  background:#666;
+  width:400px;
+  padding:10px;
+  color:#ffffff;
+  margin:8px;
+  border:1px solid $black;
+  border-radius:5px;
+}
+button{width:100px; border: 0;
+ background: none;
+ box-shadow: none;
+ border-radius: 0px;outline:0;
+ color:#FFFFFF;padding:10px;
+ }
+#app{float:left;position:relative;}
+#root{float:left;position:relative;}
+ </style>
+ 
+ <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react/16.2.0/umd/react.development.js"></script>
+ <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.2.0/umd/react-dom.development.js"></script>
+ <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+ <script src="material-ui.production.min.js" ></script>
+ 
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+ <script type="text/babel" src='ProductList.js'></script>
+ <script type="text/babel" src='Person.js'></script>
+ <script type="text/babel" src='app.js'></script>
+ <div id='app'></div>
+ <div id='root'></div>
